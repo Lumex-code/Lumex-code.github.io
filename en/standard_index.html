@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>2023 StuPa election - HAW Hamburg</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+    <script type="text/javascript" src="../../assets/script/modal.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: #f1f1f1;
+            padding: 20px 10px;
+        }
+
+            .header a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 25px;
+                border-radius: 4px;
+            }
+
+                .header a.logo {
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+
+                .header a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .header a.active {
+                    background-color: dodgerblue;
+                    color: white;
+                }
+
+        .header-right {
+            float: right;
+        }
+
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+    </style>
+</head>
+<div class="header">
+    <a href="#default" class="logo">Election Committee</a>
+    <div class="header-right">
+        <a href="https://wahlleitung.asta.haw-hamburg.de/asta2024/en/">AStA 2023 election</a>
+        <a class="active" href="#home">StuPa 2023 election</a>
+        <a href="mailto: wahlleitung@asta.haw-hamburg.de">Contact</a>
+    </div>
+</div>
+<body>
+<header class="container">
+    <nav>
+        <ul>
+            <li>
+                <hgroup>
+                    <h1>2023 StuPa election</h1>
+                    <h2>of the HAW Hamburg</h2>
+                </hgroup>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="../de">🇩🇪</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <div style="text-align: center">
+        <img src="../assets/img/logo.png" alt="2023 StuPa election logo" style="max-height: 30vh">
+        <h1 style="text-align: center">YOU have voted!</h1>
+        <em>Dear students of HAW Hamburg,<br>down below you will find more information regarding the elction Results.</em>
+    </div>
+    <article>
+        <h2>Election Result</h2>
+        <form action="../assets/pdf/Election Result StuPa 2024.pdf">
+            <input type="submit" value="Election Result (.pdf)">
+        </form>
+        <h2>Election magazine</h2>
+        <form action="../assets/pdf/Wahlzeitung_231123.pdf">
+            <input type="submit" value="Election magazine (.pdf)">
+        </form>
+    </article>
+    <div class="grid">
+        <div style="grid-column: span 2">
+            <article>
+                <h2>When?</h2>
+                <h4>Day election</h4>
+                <p>
+                    Dependent on your Department at following locations<br>from <strong>04. to 08.12.</strong><br>daily from <strong>
+                        11:30
+                        to 14:30
+                    </strong>
+                </p>
+                <h4>Evening election</h4>
+                <p>
+                    at <strong>Berliner Tor 5</strong> and <strong>Bergedorf</strong><br>on <strong>
+                        05. and
+                        07.12.
+                    </strong><br>respectively from <strong>17:00 to 19:00</strong>
+                </p>
+            </article>
+            <article>
+                <h2>Where?</h2>
+                <p>Dependent of your department, you can vote at the following locations:</p>
+                <table>
+                    <tr>
+                        <th>Building</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Alexanderstraße</td>
+                        <td>foyer, next to the mailboxes</td>
+                    </tr>
+                    <tr>
+                        <td>Armgartstraße</td>
+                        <td>foyer</td>
+                    </tr>
+                    <tr>
+                        <td>Bergedorf</td>
+                        <td>foyer, in front of the cafeteria</td>
+                    </tr>
+                    <tr>
+                        <td>Berliner Tor 5</td>
+                        <td>1<sup>st</sup> floor, next to the auditoriums</td>
+                    </tr>
+                    <tr>
+                        <td>Berliner Tor 7</td>
+                        <td>foyer, in front of the cafeteria</td>
+                    </tr>
+                    <tr>
+                        <td>Finkenau</td>
+                        <td>foyer, in front of the cafeteria</td>
+                    </tr>
+                </table>
+            </article>
+        </div>
+        <div style="text-align: center">
+            <article>
+                <h2>Nominations</h2>
+                <form action="../assets/pdf/Nominations.pdf">
+                    <input type="submit" value="Nominations (.pdf)">
+                </form>
+            </article>
+        </div>
+    </div>
+</main>
+<footer class="container">
+    <nav style="--color: var(--muted-color)">
+        <ul></ul>
+        <ul>
+            <li>
+                &#169; <a href="mailto: wahlleitung@asta.haw-hamburg.de">Election Committee of the Student
+                Body of the HAW Hamburg</a>
+            </li>
+        </ul>
+        <ul></ul>
+    </nav>
+</footer>
+</body>
+</html>
